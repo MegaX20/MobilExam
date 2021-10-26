@@ -1,0 +1,3634 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    tools:context=".RateActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/loginC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="login"
+                    android:textIsSelectable="true" />
+
+                <Button
+                    android:id="@+id/qaC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="QA" />
+
+                <Button
+                    android:id="@+id/rateC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="rate" />
+
+                <Button
+                    android:id="@+id/reviewC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="review" />
+
+                <Button
+                    android:id="@+id/searchC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="search" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/apple1chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    app:srcCompat="@drawable/apple_ipad_pro_11" />
+
+                <TextView
+                    android:id="@+id/apple1guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/apple1cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/apple_ipad_pro_11_cancel" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/apple1battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/apple1camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/apple1cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/apple1gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/apple1link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/apple1memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/apple1model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/apple1price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/apple1release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/apple1screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/apple2chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/apple_iphone_11_pro_max" />
+
+                <TextView
+                    android:id="@+id/apple2guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/apple2cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/apple_iphone_11_pro_max_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/apple2battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/apple2camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/apple2cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/apple2gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/apple2link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/apple2memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/apple2model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/apple2price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/apple2release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/apple2screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/apple3chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/apple_iphone_8" />
+
+                <TextView
+                    android:id="@+id/apple3guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/apple3cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/apple_iphone_8_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/apple3battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/apple3camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/apple3cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/apple3gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/apple3link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/apple3memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/apple3model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/apple3price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/apple3release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/apple3screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/apple4chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/apple_iphone_8_plus" />
+
+                <TextView
+                    android:id="@+id/apple4guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/apple4cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/apple_iphone_8_plus_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/apple4battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/apple4camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/apple4cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/apple4gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/apple4link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/apple4memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/apple4model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/apple4price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/apple4release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/apple4screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/apple5chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/apple_iphone_se_2020" />
+
+                <TextView
+                    android:id="@+id/apple5guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/apple5cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/apple_iphone_se_2020_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/apple5battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/apple5camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/apple5cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/apple5gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/apple5link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/apple5memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/apple5model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/apple5price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/apple5release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/apple5screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/apple6chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/apple_iphone_x" />
+
+                <TextView
+                    android:id="@+id/apple6guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/apple6cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/apple_iphone_x_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/apple6battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/apple6camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/apple6cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/apple6gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/apple6link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/apple6memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/apple6model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/apple6price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/apple6release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/apple6screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/huawei1chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/huawei_mate30_pro_5g" />
+
+                <TextView
+                    android:id="@+id/huawei1guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/huawei1cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/huawei_mate30_pro_5g_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/huawei1battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/huawei1camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/huawei1cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/huawei1gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/huawei1link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/huawei1memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/huawei1model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/huawei1price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/huawei1release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/huawei1screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/huawei2chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/huawei_mate_xs" />
+
+                <TextView
+                    android:id="@+id/huawei2guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/huawei2cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/huawei_mate_xs_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/huawei2battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/huawei2camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/huawei2cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/huawei2gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/huawei2link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/huawei2memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/huawei2model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/huawei2price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/huawei2release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/huawei2screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/huawei3chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/huawei_nova_5t" />
+
+                <TextView
+                    android:id="@+id/huawei3guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/huawei3cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/huawei_nova_5t_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/huawei3battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/huawei3camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/huawei3cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/huawei3gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/huawei3link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/huawei3memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/huawei3model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/huawei3price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/huawei3release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/huawei3screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/huawei4chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/huawei_nova_7i" />
+
+                <TextView
+                    android:id="@+id/huawei4guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/huawei4cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/huawei_nova_7i_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/huawei4battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/huawei4camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/huawei4cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/huawei4gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/huawei4link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/huawei4memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/huawei4model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/huawei4price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/huawei4release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/huawei4screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/huawei5chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/huawei_p20_pro" />
+
+                <TextView
+                    android:id="@+id/huawei5guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/huawei5cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/huawei_p20_pro_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/huawei5battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/huawei5camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/huawei5cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/huawei5gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/huawei5link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/huawei5memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/huawei5model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/huawei5price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/huawei5release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/huawei5screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/huawei6chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/huawei_p40_pro" />
+
+                <TextView
+                    android:id="@+id/huawei6guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/huawei6cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/huawei_p40_pro_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/huawei6battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/huawei6camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/huawei6cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/huawei6gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/huawei6link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/huawei6memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/huawei6model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/huawei6price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/huawei6release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/huawei6screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/lg1chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/lg_g8_thinq" />
+
+                <TextView
+                    android:id="@+id/lg1guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/lg1cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/lg_g8_thinq_cancel" />
+            </LinearLayout><![CDATA[
+
+            TextView
+            android:id="@+id/lg1battery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="battery" />
+
+            ]]>
+
+            <TextView
+                android:id="@+id/lg1camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/lg1cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/lg1gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/lg1link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/lg1memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/lg1model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/lg1price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/lg1release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/lg1screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/lg2chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/lg_k30_2019" />
+
+                <TextView
+                    android:id="@+id/lg2guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/lg2cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/lg_k30_2019_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/lg21battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/lg2camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/lg2cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/lg2gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/lg2link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/lg2memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/lg2model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/lg2price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/lg2release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/lg2screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/lg3chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/lg_q92_5g" />
+
+                <TextView
+                    android:id="@+id/lg3guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/lg3cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/lg_q92_5g_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/lg3battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/lg3camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/lg3cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/lg3gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/lg3link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/lg3memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/lg3model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/lg3price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/lg3release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/lg3screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/lg4chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/lg_v30_thinq" />
+
+                <TextView
+                    android:id="@+id/lg4guide"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/lg4cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/lg_v30_thinq_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/lg4battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/lg4camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/lg4cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/lg4gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/lg4link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/lg4memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/lg4model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/lg4price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/lg4release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/lg4screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/lg5chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/lg_v60_thinq_5g" />
+
+                <TextView
+                    android:id="@+id/lg5guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/lg5cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/lg_v60_thinq_5g_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/lg5battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/lg5camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/lg5cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/lg5gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/lg5link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/lg5memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/lg5model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/lg5price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/lg5release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/lg5screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/lg6chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/lg_velvet" />
+
+                <TextView
+                    android:id="@+id/lg6guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/lg6cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/lg_velvet_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/lg6battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/lg6camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/lg6cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/lg6gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/lg6link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/lg6memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/lg6model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/lg6price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/lg6release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/lg6screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/samsung1chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/samsung_galaxy_m51" />
+
+                <TextView
+                    android:id="@+id/samsung1guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/samsung1cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/samsung_galaxy_m51_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/samsung1battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/samsung1camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/samsung1cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/samsung1gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/samsung1ink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/samsung1memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/samsung1model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/samsung1price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/samsung1release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/samsung1screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/samsung2chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/samsung_galaxy_note10_5g" />
+
+                <TextView
+                    android:id="@+id/samsung2guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/samsung2cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/samsung_galaxy_note10_5g_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/samsung2battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/samsung2camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/samsung2cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/samsung2gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/samsung2ink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/samsung2memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/samsung2model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/samsung2price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/samsung2release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/samsung2screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/samsung3chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/samsung_galaxy_note20_ultra" />
+
+                <TextView
+                    android:id="@+id/samsung3guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/samsung3cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/samsung_galaxy_note20_ultra_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/samsung3battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/samsung3camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/samsung3cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/samsung3gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/samsung3link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/samsung3memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/samsung3model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/samsung3price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/samsung3release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/samsung3screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/samsung4chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/samsung_galaxy_s20" />
+
+                <TextView
+                    android:id="@+id/samsung4guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/samsung4cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/samsung_galaxy_s20_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/samsung4battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/samsung4camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/samsung4cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/samsung4gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/samsung4link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/samsung4memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/samsung4model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/samsung4price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/samsung4release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/samsung4screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/samsung5chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/samsung_galaxy_tab_s6_lite" />
+
+                <TextView
+                    android:id="@+id/samsung5guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/samsung5cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/samsung_galaxy_tab_s6_lite_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/samsung5battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/samsung5camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/samsung5cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/samsung5gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/samsung5link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/samsung5memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/samsung5model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/samsung5price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/samsung5release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/samsung5screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/samsung6chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/samsung_galaxy_z_flip_5g" />
+
+                <TextView
+                    android:id="@+id/samsung6guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/samsung6cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/samsung_galaxy_z_flip_5g_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/samsung6battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/samsung6camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/samsung6cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/samsung6gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/samsung6link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/samsung6memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/samsung6model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/samsung6price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/samsung6release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/samsung6screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/sony1chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/sony_xperia_1" />
+
+                <TextView
+                    android:id="@+id/sony1guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/sony1cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/sony_xperia_1_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/sony1battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/sony1camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/sony1cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/sony1gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/sony1link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/sony1memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/sony1model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/sony1price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/sony1release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/sony1screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/sony2chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/sony_xperia_10" />
+
+                <TextView
+                    android:id="@+id/sony2guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/sony2cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/sony_xperia_10_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/sony2battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/sony2camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/sony2cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/sony2gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/sony2link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/sony2memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/sony2model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/sony2price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/sony2release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/sony2screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/sony3chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/sony_xperia_10_ii" />
+
+                <TextView
+                    android:id="@+id/sony3guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/sony3cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/sony_xperia_10_ii_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/sony3battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/sony3camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/sony3cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/sony3gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/sony3link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/sony3memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/sony3model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/sony3price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/sony3release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/sony3screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/sony4chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/sony_xperia_1_ii" />
+
+                <TextView
+                    android:id="@+id/sony4guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/sony4cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/sony_xperia_1_ii_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/sony4battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/sony4camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/sony4cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/sony4gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/sony4link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/sony4memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/sony4model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/sony4price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/sony4release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/sony4screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/sony5chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/sony_xperia_5_ii_5g" />
+
+                <TextView
+                    android:id="@+id/sony5guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/sony5cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/sony_xperia_5_ii_5g_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/sony5battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/sony5camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/sony5cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/sony5gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/sony5link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/sony5memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/sony5model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/sony5price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/sony5release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/sony5screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/sony6chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/sony_xperia_l4" />
+
+                <TextView
+                    android:id="@+id/sony6guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/sony6cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/sony_xperia_l4_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/sony6battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/sony6camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/sony6cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/sony6gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/sony6link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/sony6memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/sony6model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/sony6price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/sony6release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/sony6screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/xiaomi1chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/xiaomi_poco_f2_pro" />
+
+                <TextView
+                    android:id="@+id/xiaomi1guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/xiaomi1cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/xiaomi_poco_f2_pro_cancel" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/xiaomibattery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/xaiomi1camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/xaiomi1cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/xaiomi1gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/xiaomi1link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/xiaomi1memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/xiaomi1model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/xiaomi1price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/xiaomi1release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/xiaomi1screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/xiaomi2chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/xiaomi_poco_x3" />
+
+                <TextView
+                    android:id="@+id/xiaomi2guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/xiaomi2cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/xiaomi_poco_x3_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/xaiomi2battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/xiaomi2camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/xiaomi2cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/xiaomi2gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/xiaomi2link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/xiaomi2memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/xiaomi2model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/xiaomi2price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/xiaomi2release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/xiaomi2screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/xiaomi3chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/xiaomi_poco_x3_nfc" />
+
+                <TextView
+                    android:id="@+id/xiaomi3guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo to select, Press long click the mobile photo to deselect." />
+
+                <ImageButton
+                    android:id="@+id/xiaomi3cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/xiaomi_poco_x3_nfc_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/xiaomi3battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/xiaomi3camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/xiaomi3cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/xiaomi3gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/xiaomi3link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/xiaomi3memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/xiaomi3model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/xiaomi3price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/xiaomi3release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/xiaomi3screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/xiaomi4chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/xiaomi_redmi_9a" />
+
+                <TextView
+                    android:id="@+id/xiaomi4guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/xiaomi4cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/xiaomi_redmi_9a_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/xiaomi4battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/xiaomi4camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/xiaomi4cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/xiaomi4gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/xiaomi4link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/xiaomi4memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/xiaomi4model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/xiaomi4price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/xiaomi4release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/xiaomi4screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/xiaomi5chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/xiaomi_redmi_k30_ultra" />
+
+                <TextView
+                    android:id="@+id/xiaomi5guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/xiaomi5cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/xiaomi_redmi_k30_ultra_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/xaiomi5battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/xiaomi5camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/xiaomi5cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/xiaomi5gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/xiaomi5link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/xiaomi5memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/xiaomi5model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/xiaomi5price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/xiaomi5release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/xiaomi5screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/xiaomi6chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/xiaomi_redmi_note_9_pro" />
+
+                <TextView
+                    android:id="@+id/xiaomi6guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:text="Press short click the mobile photo without x to select.  Press long click the mobile photo with x to deselect. " />
+
+                <ImageButton
+                    android:id="@+id/xiaomi6cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/xiaomi_redmi_note_9_pro_cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/xiaomi6battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="battery" />
+
+            <TextView
+                android:id="@+id/xiaomi6camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="camera" />
+
+            <TextView
+                android:id="@+id/xiaomi6cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cpu" />
+
+            <TextView
+                android:id="@+id/xiaomi6gpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="gpu" />
+
+            <TextView
+                android:id="@+id/xiaomi6link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="link" />
+
+            <TextView
+                android:id="@+id/xiaomi6memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="memory" />
+
+            <TextView
+                android:id="@+id/xiaomi6model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="model phone" />
+
+            <TextView
+                android:id="@+id/xiaomi6price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/xiaomi6release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="release date" />
+
+            <TextView
+                android:id="@+id/xiaomi6screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="screen" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

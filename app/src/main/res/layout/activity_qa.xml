@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QaActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/city_bg"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/choseQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_outline_border"
+            android:text="chose" />
+
+        <Button
+            android:id="@+id/loginQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_outline_border"
+            android:text="login" />
+
+        <Button
+            android:id="@+id/rateQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_outline_border"
+            android:text="RATE" />
+
+        <Button
+            android:id="@+id/reviewQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_outline_border"
+            android:text="review" />
+
+        <Button
+            android:id="@+id/searchQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_outline_border"
+            android:text="search" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Question1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="q) Do you know which mobile phone can fold in half?"
+                android:textSize="22sp"
+                android:textColor="#ffff00"/>
+
+            <TextView
+                android:id="@+id/Answer1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="a) Samsung Glaxy Z can fold in half"
+                android:textSize="22sp"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:id="@+id/Question2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="q) which phones models support 5G network?"
+                android:textSize="22sp"
+                android:textColor="#ffff00"/>
+
+            <TextView
+                android:id="@+id/Answer2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="a) Samsumg Glaxy s20 is supported"
+                android:textSize="22sp"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/Question3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="q) Which moblile models in iphone and glaxy are most popular?"
+                android:textSize="22sp"
+                android:textColor="#ffff00"/>
+
+            <TextView
+                android:id="@+id/Answer03"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="a) (1)Glaxy note 10, Iphone 11 (2) Glaxy s10, Iphone 11 pro (3) Glaxy s20,Iphone 11 pro max"
+                android:textSize="22sp"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:id="@+id/q4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="q) Which phone has the best battery life (2020)?"
+                android:textSize="22sp"
+                android:textColor="#ffff00"/>
+
+            <TextView
+                android:id="@+id/a4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="a) Xiaomi Mi 10 Pro has the best the battery life "
+                android:textSize="22sp"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/q5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="q) Which phone has the best camera (2020)? "
+                android:textSize="22sp"
+                android:textColor="#ffff00" />
+
+            <TextView
+                android:id="@+id/a5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="a) Huawei P40 Pro, Samsung Galaxy S10 5G and Google Pixel 4 XL has the best camera "
+                android:textSize="22sp"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:id="@+id/q6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="q) What are the best budget phones (2020)?"
+                android:textSize="22sp"
+                android:textColor="#ffff00"/>
+
+            <TextView
+                android:id="@+id/a6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="a) The best budget phones for 2020 is Samsung Galaxy A71"
+                android:textColor="#ffffff"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/regimage"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/emailMessage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="enter your email"
+            android:textSize="24sp"
+            android:textColor="#ffff00"/>
+
+        <EditText
+            android:id="@+id/email_edittext1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_outline_border3"
+            android:layout_weight="1"
+            android:inputType="textEmailAddress"
+            android:textColor="#ffff00"/>
+
+        <TextView
+            android:id="@+id/passwordMessage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="enter your password at least 6 charecters"
+            android:textSize="24sp"
+            android:textColor="#00580A"/>
+
+        <EditText
+            android:id="@+id/password_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_outline_border3"
+            android:layout_weight="1"
+            android:ems="10"
+            android:textSize="24sp"
+            android:inputType="textPassword"
+            android:textColor="#00580A"/>
+
+        <TextView
+            android:id="@+id/fullnameMessage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="enter your fullname"
+            android:textSize="24sp"
+            android:textColor="#00580A"/>
+
+        <EditText
+            android:id="@+id/fullname_edittext1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_outline_border3"
+            android:layout_weight="1"
+            android:ems="10"
+            android:textSize="24sp"
+            android:inputType="textPersonName"
+            android:textColor="#00580A"/>
+
+        <TextView
+            android:id="@+id/phoneMessage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="enter yourigi phone(10 digits)"
+            android:textSize="24sp"
+            android:textColor="#00580A"/>
+
+        <EditText
+            android:id="@+id/phone_edittext1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_outline_border3"
+            android:layout_weight="1"
+            android:textSize="24sp"
+            android:inputType="phone"
+            android:textColor="#00580A"/>
+
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="24sp"
+            android:text="register" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

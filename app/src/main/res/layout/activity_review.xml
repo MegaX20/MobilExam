@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReviewActivity">
+
+    <LinearLayout
+        android:background="@drawable/sky_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/choseR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_outline_border"
+            android:text="chose" />
+
+        <Button
+            android:id="@+id/loginR"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_outline_border"
+            android:text="login" />
+
+        <Button
+            android:id="@+id/rateR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="rate"
+            android:background="@drawable/btn_outline_border"/>
+
+        <Button
+            android:id="@+id/qaR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="qa"
+            android:background="@drawable/btn_outline_border"/>
+
+        <Button
+            android:id="@+id/searchR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="search"
+            android:background="@drawable/btn_outline_border" />
+    </LinearLayout>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/samsumgReview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="SamsungReview"
+                android:text="samsumgReview" />
+
+            <Button
+                android:id="@+id/samsumgReview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="SamsungReview2"
+                android:text="samsumgReview2" />
+
+            <Button
+                android:id="@+id/samsumgReview3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="SamsungReview3"
+                android:text="samsumgReview3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/SamsungReview4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="SamsungReview4"
+                android:text="SamsungReview4" />
+
+            <Button
+                android:id="@+id/SamsungReview5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="SamsungReview5"
+                android:text="SamsungReview5" />
+
+            <Button
+                android:id="@+id/SamsungReview6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="SamsungReview6"
+                android:text="SamsungReview6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/Applereview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="AppleReview"
+                android:text="Applereview" />
+
+            <Button
+                android:id="@+id/Applereview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="AppleReview2"
+                android:text="Applereview2" />
+
+            <Button
+                android:id="@+id/Applereview3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="AppleReview3"
+                android:text="Applereview3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/AppleReview4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="AppleReview4"
+                android:text="AppleReview4" />
+
+            <Button
+                android:id="@+id/AppleReview5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="AppleReview5"
+                android:text="AppleReview5" />
+
+            <Button
+                android:id="@+id/AppleReview6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="AppleReview6"
+                android:text="AppleReview6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/sonyReview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="SonyReview"
+                android:text="sonyReview" />
+
+            <Button
+                android:id="@+id/sonyReview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="SonyReview2"
+                android:text="sonyReview2" />
+
+            <Button
+                android:id="@+id/sonyReview3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="SonyReview3"
+                android:text="sonyReview3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/SonyReview4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="SonyReview4"
+                android:text="SonyReview4" />
+
+            <Button
+                android:id="@+id/SonyReview5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="SonyReview5"
+                android:text="SonyReview5" />
+
+            <Button
+                android:id="@+id/SonyReview6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="SonyReview6"
+                android:text="SonyReview6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/LGReview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="LGReview"
+                android:text="LGReview" />
+
+            <Button
+                android:id="@+id/LGReview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="LGReview2"
+                android:text="LGReview2" />
+
+            <Button
+                android:id="@+id/LGReview3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="LGReview3"
+                android:text="LGReview3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/LGReview4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="LGReview4"
+                android:text="LGReview4" />
+
+            <Button
+                android:id="@+id/LGReview5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="LGReview5"
+                android:text="LGReview5" />
+
+            <Button
+                android:id="@+id/LGReview6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="LGReview6"
+                android:text="LGReview6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/huaweiReview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="HuaweiReview"
+                android:text="huaweiReview" />
+
+            <Button
+                android:id="@+id/huaweiReview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="HuaweiReview2"
+                android:text="huaweiReview2" />
+
+            <Button
+                android:id="@+id/huaweiReview3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="HuaweiReview3"
+                android:text="huaweiReview3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/HuaweiReview4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="HuaweiReview4"
+                android:text="HuaweiReview4" />
+
+            <Button
+                android:id="@+id/HuaweiReview5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="HuaweiReview5"
+                android:text="HuaweiReview5" />
+
+            <Button
+                android:id="@+id/HuaweiReview6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="HuaweiReview6"
+                android:text="HuaweiReview6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/xiaomiReview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="XiaomiReview"
+                android:text="xiaomiReview" />
+
+            <Button
+                android:id="@+id/xiaomiReview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="XiaomiReview2"
+                android:text="xiaomiReview2" />
+
+            <Button
+                android:id="@+id/xiaomiReview3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="XiaomiReview3"
+                android:text="xiaomiReview3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/XiaomiReview4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="XiaomiReview4"
+                android:text="XiaomiReview4" />
+
+            <Button
+                android:id="@+id/XiaomiReview5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="XiaomiReview5"
+                android:text="XiaomiReview5" />
+
+            <Button
+                android:id="@+id/XiaomiReview6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_outline_border2"
+                android:onClick="XiaomiReview6"
+                android:text="XiaomiReview6" />
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

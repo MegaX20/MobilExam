@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:drawable="@drawable/btn_outline_border" android:state_pressed="false">
+                    <shape android:shape="rectangle">
+                            <solid android:color="#F9A825"/>
+                            <solid/>
+                            <stroke
+                            android:width="2dp"
+                            android:color="#000000"
+                            />
+
+                    </shape>
+            </item>
+            <item android:drawable="@drawable/btn_outline_border2" android:state_focused="true">
+                        <shape android:shape="rectangle">
+                            <solid android:color="#11BF8A"/>
+
+                            <stroke
+                                android:width="2dp"
+                                android:color="#2F3E7F"
+                                />
+
+                        </shape>
+            </item>
+            <item android:drawable="@drawable/btn_outline_border3">
+                    <shape android:shape="rectangle">
+
+                    </shape>
+            </item>
+            <item android:drawable="@drawable/btn_outline_border4">
+                    <shape android:shape="rectangle">
+
+                    </shape>
+            </item>
+</selector>
